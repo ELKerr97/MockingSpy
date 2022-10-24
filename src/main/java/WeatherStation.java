@@ -11,7 +11,15 @@ public class WeatherStation {
     private Thermometer thermometer;
     private SatelliteUplink satelliteUplink;
 
-
+    public WeatherStation(Anemometer anemometer, Barometer barometer,
+                          Hygrometer hygrometer, Thermometer thermometer,
+                          SatelliteUplink satelliteUplink){
+        this.anemometer = anemometer;
+        this.barometer = barometer;
+        this.hygrometer = hygrometer;
+        this.thermometer = thermometer;
+        this.satelliteUplink = satelliteUplink;
+    }
     public boolean runStormWarningCheck() {
         double humidity = hygrometer.getCurrentHumidity();
         double airPressure = barometer.getAtmosphericPressure();
@@ -33,7 +41,6 @@ public class WeatherStation {
         double windSpeed = anemometer.getWindSpeed();
         double airPressure = barometer.getAtmosphericPressure();
         boolean tornadoWarning = false;
-
 
         if (humidity > 30 || airPressure < 800 || windSpeed > 15) {
             tornadoWarning = satelliteUplink.runTornadoCheckForArea(humidity, windSpeed, airPressure);

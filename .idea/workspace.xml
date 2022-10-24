@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2958117-9959-4167-bd2d-8a872bebf41c" name="Changes" comment="" />
+    <list default="true" id="f2958117-9959-4167-bd2d-8a872bebf41c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WeatherStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/Anemometer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/Barometer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/Hygrometer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/Thermometer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/satellite/SatConn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/satellite/SatConnDummy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/satellite/SatelliteDataCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/satellite/SatelliteUplink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WeatherStationTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GHjRncbUEV2ST2DDFi94klBPOA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,12 +48,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WeatherStationTest">
+    <configuration name="WeatherStationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MoreMocking" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WeatherStationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherStationTest.anemometerCalibrationCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MoreMocking" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WeatherStationTest" />
+      <option name="METHOD_NAME" value="anemometerCalibrationCheckTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherStationTest.stormWarningTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MoreMocking" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WeatherStationTest" />
+      <option name="METHOD_NAME" value="stormWarningTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherStationTest.temperatureCalibrationTest_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MoreMocking" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WeatherStationTest" />
+      <option name="METHOD_NAME" value="temperatureCalibrationTest_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherStationTest.weatherStationSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MoreMocking" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WeatherStationTest" />
+      <option name="METHOD_NAME" value="weatherStationSetTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WeatherStationTest" />
+        <item itemvalue="JUnit.WeatherStationTest.stormWarningTest" />
+        <item itemvalue="JUnit.WeatherStationTest.weatherStationSetTest" />
+        <item itemvalue="JUnit.WeatherStationTest.temperatureCalibrationTest_Test" />
+        <item itemvalue="JUnit.WeatherStationTest.anemometerCalibrationCheckTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +133,12 @@
       <updated>1666052398888</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MoreMocking$WeatherStationTest_stormWarningTest.ic" NAME="WeatherStationTest.stormWarningTest Coverage Results" MODIFIED="1666306720645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MoreMocking$WeatherStationTest.ic" NAME="WeatherStationTest Coverage Results" MODIFIED="1666306801783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MoreMocking$WeatherStationTest_runTornadoWarningCheckTest.ic" NAME="WeatherStationTest.runTornadoWarningCheckTest Coverage Results" MODIFIED="1666305364286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MoreMocking$WeatherStationTest_satelliteTest.ic" NAME="WeatherStationTest.satelliteTest Coverage Results" MODIFIED="1666303220838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MoreMocking$WeatherStationTest_stormWarningPass.ic" NAME="WeatherStationTest.stormWarningPass Coverage Results" MODIFIED="1666289212762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

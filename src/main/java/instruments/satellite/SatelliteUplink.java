@@ -94,7 +94,7 @@ public class SatelliteUplink {
         if (airPressureDiff > 150 || (humidityDiff > 5 && currWindSpeedAvg > 15)) {
             tornadoWarningSuggested = true;
         } else {
-            tornadoWarningSuggested = checkNearbyAreaStorms();
+            tornadoWarningSuggested = checkNearbyAreaTornadoes();
         }
 
         return tornadoWarningSuggested;
